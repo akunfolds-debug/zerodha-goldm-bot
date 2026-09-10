@@ -1,0 +1,18 @@
+# Secrets - never commit
+.env
+token.txt
+
+# Old local versions of the app
+app_old*
+app._old*
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# macOS / editors
+.DS_Store
+.vscode/
+.idea/

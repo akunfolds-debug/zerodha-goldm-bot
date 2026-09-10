@@ -1,0 +1,7 @@
+# Python 3.10+
+# Streamlit pinned: app.py uses use_container_width, which newer releases are deprecating
+streamlit==1.63.0
+# 5.1.0+ is required for the market_protection parameter on place_order
+kiteconnect>=5.1.0,<6
+pandas>=2.0
+python-dotenv>=1.0
